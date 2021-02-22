@@ -1,11 +1,11 @@
 <?php
 
-namespace Caffeinated\Modules\Console\Generators;
+namespace Bazucompany\Modules\Console\Generators;
 
 use Illuminate\Support\Str;
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
-use Caffeinated\Modules\RepositoryManager;
+use Bazucompany\Modules\RepositoryManager;
 use Symfony\Component\Console\Helper\ProgressBar;
 
 class MakeModuleCommand extends Command
@@ -25,7 +25,7 @@ class MakeModuleCommand extends Command
      *
      * @var string
      */
-    protected $description = 'Create a new Caffeinated module and bootstrap it';
+    protected $description = 'Create a new Bazucompany module and bootstrap it';
 
     /**
      * The modules instance.

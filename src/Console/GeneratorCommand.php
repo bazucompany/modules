@@ -1,6 +1,6 @@
 <?php
 
-namespace Caffeinated\Modules\Console;
+namespace Bazucompany\Modules\Console;
 
 use Illuminate\Console\GeneratorCommand as LaravelGeneratorCommand;
 use Illuminate\Support\Str;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Caffeinated\Modules\Providers;
+namespace Bazucompany\Modules\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -20,17 +20,17 @@ class GeneratorServiceProvider extends ServiceProvider
     public function register()
     {
         $generators = [
-            'command.make.module'            => \Caffeinated\Modules\Console\Generators\MakeModuleCommand::class,
-            'command.make.module.controller' => \Caffeinated\Modules\Console\Generators\MakeControllerCommand::class,
-            'command.make.module.middleware' => \Caffeinated\Modules\Console\Generators\MakeMiddlewareCommand::class,
-            'command.make.module.migration'  => \Caffeinated\Modules\Console\Generators\MakeMigrationCommand::class,
-            'command.make.module.model'      => \Caffeinated\Modules\Console\Generators\MakeModelCommand::class,
-            'command.make.module.policy'     => \Caffeinated\Modules\Console\Generators\MakePolicyCommand::class,
-            'command.make.module.provider'   => \Caffeinated\Modules\Console\Generators\MakeProviderCommand::class,
-            'command.make.module.request'    => \Caffeinated\Modules\Console\Generators\MakeRequestCommand::class,
-            'command.make.module.seeder'     => \Caffeinated\Modules\Console\Generators\MakeSeederCommand::class,
-            'command.make.module.test'       => \Caffeinated\Modules\Console\Generators\MakeTestCommand::class,
-            'command.make.module.job'        => \Caffeinated\Modules\Console\Generators\MakeJobCommand::class,
+            'command.make.module'            => \Bazucompany\Modules\Console\Generators\MakeModuleCommand::class,
+            'command.make.module.controller' => \Bazucompany\Modules\Console\Generators\MakeControllerCommand::class,
+            'command.make.module.middleware' => \Bazucompany\Modules\Console\Generators\MakeMiddlewareCommand::class,
+            'command.make.module.migration'  => \Bazucompany\Modules\Console\Generators\MakeMigrationCommand::class,
+            'command.make.module.model'      => \Bazucompany\Modules\Console\Generators\MakeModelCommand::class,
+            'command.make.module.policy'     => \Bazucompany\Modules\Console\Generators\MakePolicyCommand::class,
+            'command.make.module.provider'   => \Bazucompany\Modules\Console\Generators\MakeProviderCommand::class,
+            'command.make.module.request'    => \Bazucompany\Modules\Console\Generators\MakeRequestCommand::class,
+            'command.make.module.seeder'     => \Bazucompany\Modules\Console\Generators\MakeSeederCommand::class,
+            'command.make.module.test'       => \Bazucompany\Modules\Console\Generators\MakeTestCommand::class,
+            'command.make.module.job'        => \Bazucompany\Modules\Console\Generators\MakeJobCommand::class,
         ];
 
         foreach ($generators as $slug => $class) {

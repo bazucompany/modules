@@ -1,9 +1,9 @@
 <?php
 
-namespace Caffeinated\Modules\Tests\Commands\Generators;
+namespace Bazucompany\Modules\Tests\Commands\Generators;
 
 use Spatie\Snapshots\MatchesSnapshots;
-use Caffeinated\Modules\Tests\BaseTestCase;
+use Bazucompany\Modules\Tests\BaseTestCase;
 
 class CommandMakeModuleTest extends BaseTestCase
 {

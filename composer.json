@@ -1,7 +1,7 @@
 {
     "name": "bazucompany/modules",
     "description": "Laravel Modules",
-    "keywords": ["modules", "laravel", "caffeinated"],
+    "keywords": ["modules", "laravel", "Bazucompany"],
     "license": "MIT",
     "authors": [
         {
@@ -26,12 +26,12 @@
             "src/Support/helpers.php"
         ],
         "psr-4": {
-            "Caffeinated\\Modules\\": "src/"
+            "Bazucompany\\Modules\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Caffeinated\\Modules\\Tests\\": "tests"
+            "Bazucompany\\Modules\\Tests\\": "tests"
         }
     },
     "suggest": {
@@ -40,10 +40,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Caffeinated\\Modules\\ModulesServiceProvider"
+                "Bazucompany\\Modules\\ModulesServiceProvider"
             ],
             "aliases": {
-                "Module": "Caffeinated\\Modules\\Facades\\Module"
+                "Module": "Bazucompany\\Modules\\Facades\\Module"
             }
         }
     }

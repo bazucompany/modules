@@ -21,7 +21,7 @@ We follow the [PSR-2 coding standard](https://github.com/php-fig/fig-standards/b
 Please write tests for any new feature you add. Your code won't be accepted otherwise.
 
 ### Documentation and Changes
-Please open a pull request within our [documentation](https://github.com/caffeinated/website) for this package with updated information regarding your update.
+Please open a pull request within our [documentation](https://github.com/Bazucompany/website) for this package with updated information regarding your update.
 
 Also, please update the [CHANGELOG](CHANGELOG.md) with any changes, removals, or additions your pull request is making under the *Unreleased* section at the top of the file. We follow the [Keep a Changlog](https://keepachangelog.com/en/1.0.0/) conventions.
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Caffeinated\Modules\Contracts;
+namespace Bazucompany\Modules\Contracts;
 
 interface Repository
 {

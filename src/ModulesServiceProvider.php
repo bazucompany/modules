@@ -1,12 +1,12 @@
 <?php
 
-namespace Caffeinated\Modules;
+namespace Bazucompany\Modules;
 
 use Illuminate\Support\ServiceProvider;
-use Caffeinated\Modules\Contracts\Repository;
-use Caffeinated\Modules\Providers\BladeServiceProvider;
-use Caffeinated\Modules\Providers\ConsoleServiceProvider;
-use Caffeinated\Modules\Providers\GeneratorServiceProvider;
+use Bazucompany\Modules\Contracts\Repository;
+use Bazucompany\Modules\Providers\BladeServiceProvider;
+use Bazucompany\Modules\Providers\ConsoleServiceProvider;
+use Bazucompany\Modules\Providers\GeneratorServiceProvider;
 
 class ModulesServiceProvider extends ServiceProvider
 {

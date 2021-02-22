@@ -1,8 +1,8 @@
 <?php
 
-namespace Caffeinated\Modules\Console\Generators;
+namespace Bazucompany\Modules\Console\Generators;
 
-use Caffeinated\Modules\Console\GeneratorCommand;
+use Bazucompany\Modules\Console\GeneratorCommand;
 
 class MakeSeederCommand extends GeneratorCommand
 {

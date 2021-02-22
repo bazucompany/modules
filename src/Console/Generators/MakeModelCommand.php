@@ -1,9 +1,9 @@
 <?php
 
-namespace Caffeinated\Modules\Console\Generators;
+namespace Bazucompany\Modules\Console\Generators;
 
 use Illuminate\Support\Str;
-use Caffeinated\Modules\Console\GeneratorCommand;
+use Bazucompany\Modules\Console\GeneratorCommand;
 
 class MakeModelCommand extends GeneratorCommand
 {

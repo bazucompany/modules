@@ -1,8 +1,8 @@
 <?php
 
-namespace Caffeinated\Modules\Tests\Commands\Commands;
+namespace Bazucompany\Modules\Tests\Commands\Commands;
 
-use Caffeinated\Modules\Tests\BaseTestCase;
+use Bazucompany\Modules\Tests\BaseTestCase;
 
 class CommandModuleMigrateRollbackTest extends BaseTestCase
 {
